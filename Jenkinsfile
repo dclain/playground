@@ -22,6 +22,10 @@ pipeline {
           "codeQA": {
             echo 'code has been scanned'
             
+          },
+          "testOne": {
+            echo 'test 1 2 3'
+            
           }
         )
       }
