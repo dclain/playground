@@ -26,6 +26,10 @@ pipeline {
           "testOne": {
             echo 'test 1 2 3'
             
+          },
+          "testTwo": {
+            echo 'test 2 on different branch'
+            
           }
         )
       }
